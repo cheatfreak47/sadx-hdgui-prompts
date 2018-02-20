@@ -5,7 +5,7 @@ This repository is for hosting my project files and releases for a series of plu
 
 The current plan is to support 6 different controllers with custom in-game controller graphics and button prompt graphics.
 
-####Supported Controllers:
+#### Supported Controllers:
 
 - Xbox 360
 - Xbox One
@@ -14,14 +14,14 @@ The current plan is to support 6 different controllers with custom in-game contr
 - Wii U Pro Controller
 - Switch Pro Controller
 
-####Supported Menus:
+#### Supported Menus:
 
 - All 6 Character Tutorial Menus
 - Options Rumble Graphics
 - Sound Test
 - Mission Mode Menu
 
-####Unsupported Menus:
+#### Unsupported Menus:
 
 - GameGear UI: Currently unsupported by HDGUI and SADX Mod Loader's UI Scaling. If it gets into HDGUI, I'll add support for it.
 - Chao UI: Currently unsupported by HDGUI and SADX Mod Loader's UI Scaling. If it gets into HDGUI, I'll support it.
@@ -34,7 +34,7 @@ The button prompt graphics come from ThoseAwesomeGuys, who have royalty free but
 
 The controller graphics come from jimbomcmxc's publicly available vectors, with the exception of the Nintendo Wii U Pro Controller and Nintendo Switch Pro Controllers, which use the official press graphics for the gamepads, since no high quality free vectors seem to be available.
 
-#####Other Repo Stuff:
+##### Other Repo Stuff:
 The files are all GIMP 2 XCF files, and the 3 batch scripts are just scripts I use in the export process.
 
 **Unpvmx.bat** is a drag and drop batch you can drop a SADX PVMX archive on and it will output a SADX Texture Pack dir. Assumes pvmx.exe by SonicFreak94 is in the same directory.
