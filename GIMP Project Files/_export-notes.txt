@@ -1,0 +1,22 @@
+XCF Notes:
+----------
+Copies: Some Textures Are Duplicated In Other Character Files
+Here are the list of them.
+
+TAILS_E has copies of:
+SONIC_E -> sprf_01_e
+SONIC_E -> sprf_02_e
+SONIC_E -> sprf_04_e
+*difficult to account for in project files just copy paste
+
+KNUCKLES_E has copies of:
+TAILS_E -> tprf_06_e
+*difficult to account for in project files just copy paste
+
+BIG_E has copies of:
+AMY_E -> aprf_04_e 
+*difficult to account for in project files just copy paste
+
+E102_E has copies of:
+AMY_E -> aprf_04_e
+*difficult to account for in project files just copy paste
