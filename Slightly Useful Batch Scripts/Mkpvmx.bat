@@ -1,2 +1,2 @@
 @echo off
-pvmx -c "%~1"
+for /d %%f in (*) do pvmx -c "%%f"

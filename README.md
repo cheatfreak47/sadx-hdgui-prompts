@@ -37,8 +37,8 @@ The controller graphics come from jimbomcmxc's publicly available vectors, with 
 ##### Other Repo Stuff:
 The files are all GIMP 2 XCF files, and the 3 batch scripts are just scripts I use in the export process.
 
-**Unpvmx.bat** is a drag and drop batch you can drop a SADX PVMX archive on and it will output a SADX Texture Pack dir. Assumes pvmx.exe by SonicFreak94 is in the same directory.
+**Unpvmx.bat** is a batch file that recursively scans the current directory for pvmx files and decompresses them into TexPack directories with pvmx.exe by SonicFreak94.
 
-**Mkpvmx.bat** is a drag and drop batch you can drop a SADX Texture Pack dir on and it will output a SADX PVMX archive. Assumes pvmx.exe by SonicFreak94 is in the same directory.
+**Mkpvmx.bat** is a batch file that recursively scans the current directory for directories with TexPack indexes and compresses them to PVMX format with pvmx.exe by SonicFreak94.
 
 **copydupes.bat** is a batch file that copies some files that are shared across the tutorial textures that are not obvious because they share the same texture name as that of one included in another character's tutorial, I use this so I don't have to remember all the occurrences of this manually after I've used all my project files to export the images.
