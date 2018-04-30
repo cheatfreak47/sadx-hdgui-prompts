@@ -1,8 +1,7 @@
 ## HD GUI 2 Button Prompts Plugins
 This repository is for hosting my project files and releases for a series of plug-in type mods for HD GUI 2, a mod that is part of the Dreamcast Conversion for Sonic Adventure DX PC.
 
-![Preview](https://files.gamebanana.com/img/ss/guis/530-90_5a87c3c1a2a4b.jpg)
-
+![Preview](https://github.com/cheatfreak47/sadx-hdgui-prompts/blob/master/repo.png?raw=true)
 The current plan is to support 6 different controllers with custom in-game controller graphics and button prompt graphics.
 
 #### Supported Controllers:
