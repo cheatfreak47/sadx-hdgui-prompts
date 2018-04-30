@@ -20,25 +20,29 @@ The current plan is to support 6 different controllers with custom in-game contr
 - Options Rumble Graphics
 - Sound Test
 - Mission Mode Menu
+- Adventure Field Maps
 
 #### Unsupported Menus:
 
 - GameGear UI: Currently unsupported by HDGUI and SADX Mod Loader's UI Scaling. If it gets into HDGUI, I'll add support for it.
 - Chao UI: Currently unsupported by HDGUI and SADX Mod Loader's UI Scaling. If it gets into HDGUI, I'll support it.
-- Adventure Field Maps: Currently supported by HDGUI, but I'm waiting on Sonikko and/or Speeps to finish any work on the maps before I adapt them with button prompts.
 - Any languages but English & Japanese: Currently unsupported by HDGUI for whatever reason. If it makes it into HDGUI, god help me this project will triple in size probably, because I will support it.
 
 Basically, I'll support anything that makes it's way into HD GUI 2, so if you want your prompts there, [bug the HD GUI 2 people](https://github.com/PiKeyAr/sadx_dreamcast/issues/141) or contribute graphics yourself to them.
 
 The button prompt graphics come from ThoseAwesomeGuys, who have royalty free button prompts available that fit quite nicely within the SA1 aesthetic, occasionally with some tweaks by myself.
 
-The controller graphics come from jimbomcmxc's publicly available vectors, with the exception of the Nintendo Wii U Pro Controller and Nintendo Switch Pro Controllers, which use the official press graphics for the gamepads, since no high quality free vectors seem to be available.
+The controller graphics for Xbox 360, Xbox One, PlayStation 3, and PlayStation 4 come from jimbomcmxc's publicly available vectors, which appear to have gone offline for the time being. (Not sure why, maybe he forgot to renew his domain?)
+
+The Nintendo Wii U Pro Controller and Nintendo Switch Pro Controllers use the official press graphics for the gamepads, since I wasn't able to find any good publicly available vector graphics that fit in well with the SA1 menus. This may change in the future.
 
 ##### Other Repo Stuff:
-The files are all GIMP 2 XCF files, and the 3 batch scripts are just scripts I use in the export process.
+The majority of the files are GIMP 2.8 XCF files- though more recent files, are GIMP 2.10 files. The 3 batch scripts are just scripts I use in the export process.
 
-**Unpvmx.bat** is a batch file that recursively scans the current directory for pvmx files and decompresses them into TexPack directories with pvmx.exe by SonicFreak94.
+I also frequently used the command `oxipng -o 6 -s */*.png` with the software [Oxipng](https://github.com/shssoichiro/oxipng) to optimize the png images inside of the texture packs before pvmxing them just to wring out a few MB of unneeded data.
 
-**Mkpvmx.bat** is a batch file that recursively scans the current directory for directories with TexPack indexes and compresses them to PVMX format with pvmx.exe by SonicFreak94.
+**Unpvmx.bat** is a batch file that recursively scans the current directory for pvmx files and decompresses them into TexPack directories with [pvmx by SonicFreak94](https://github.com/SonicFreak94/pvmx).
+
+**Mkpvmx.bat** is a batch file that recursively scans the current directory for directories with TexPack indexes and compresses them to PVMX format with [pvmx by SonicFreak94](https://github.com/SonicFreak94/pvmx).
 
 **copydupes.bat** is a batch file that copies some files that are shared across the tutorial textures that are not obvious because they share the same texture name as that of one included in another character's tutorial, I use this so I don't have to remember all the occurrences of this manually after I've used all my project files to export the images.
